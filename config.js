@@ -28,16 +28,11 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
+    "turnstileSiteKey": "",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You’re In!",
-    "mainMessage": "Your entry for the Ski Date Giveaway has been submitted. We will draw the winner on Dec 5, 2025 and notify them by email. Good luck!",
-    "socialPromptText": "Watch your inbox on Dec 5. Follow Tim on Instagram and Facebook for the winner post."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -132,8 +127,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Ontario residents only. Must be 18+. One entry per person.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -170,6 +163,8 @@ const config = {
       "Follow Tim on Facebook and Instagram for the winner announcement",
       "Tell Ottawa friends and couples to enter too"
     ],
+    "finePrintText": "Please read the fine print before entering. Ontario residents only. Must be 18+. One entry per person.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Draw",
       "text": "We pick the winner at random on Dec 5, 2025. One entry per person. Every entry has the same chance."
@@ -190,7 +185,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757969005264_0",
+      "id": "q_auto_1762293614366_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -212,7 +207,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_1",
+      "id": "q_auto_1762293614366_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -234,7 +229,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_2",
+      "id": "q_auto_1762293614366_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -256,6 +251,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You’re In!",
+    "mainMessage": "Your entry for the Ski Date Giveaway has been submitted. We will draw the winner on Dec 5, 2025 and notify them by email. Good luck!",
+    "socialPromptText": "Watch your inbox on Dec 5. Follow Tim on Instagram and Facebook for the winner post."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/tim.connolly.520",
@@ -269,7 +276,7 @@ const config = {
     },
     "footerDisclaimer": "This giveaway is sponsored by Tim Connolly at Real Broker Ontario, Brokerage and is not affiliated with Ski Date Giveaway, Instagram, or Facebook. No purchase necessary. Ontario residents only. Must be 18+. One entry per person. Entries close 2025-12-05 at 11:59 PM ET. Winner selected at random on 2025-12-05. Odds depend on number of entries. By entering, you agree to our Privacy Policy.",
     "organizerLogoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/headshots/1760125323984-AgentOpen-4.jpg",
-    "secondaryLogoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/logos/1760125633022-Real%20Logo%20Outline%20Black.eps",
+    "secondaryLogoUrl": "https://yl-clients-prod.s3.amazonaws.com/1c2ff89a-b0f6-4582-ac27-3e2203d89e67117213106_brokeredby_logo_ontario.png",
     "secondaryLogoAlt": "Real Broker Ontario, Brokerage Logo",
     "organizerName": "Tim Connolly",
     "brokerageName": "Real Broker Ontario, Brokerage",
